@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+.reuslt {
+    width: 100%;
+    height: 2572px;
+    /* background: deeppink; */
+    display: flex;
+    flex-direction:column;
+    /* justify-content: space-evenly; */
+    margin: auto;
+}
+.reuslt .text {
+    width: 100%;
+    height: 90px;
+    /* background: rgb(51, 255, 0); */
+}
+.text .title {
+    width: 1240px;
+    height: 90px;
+    /* background: red; */
+    margin: auto;
+}
+.reuslt-order {
+    width: 100%;
+    height: 2220px;
+}
+.reuslt-order-box {
+    width: 1240px;
+    height: 2220px;
+    margin: auto;
+    background: #eee;
+    overflow: hidden;
+    
+}
+.goods-item {
+    float: left;
+    width: 296px;
+    height: 430px;
+    background: #ddd;
+    margin-left: 11px;
+    margin-bottom: 14px; 
+}
+.imgs {
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.imgs img{
+    width: 200px;
+    height: 200px;
+}
+.Texts {
+    width: 296px;
+    height: 21px;
+    margin-top: 20px;
+    /* background: #fff; */
+    text-align: center;
+}
+.price {
+    width: 296px;
+    height: 21px;
+    margin-top: 20px;
+    /* background: #ccc; */
+    text-align: center;
+}
+
+.price span:nth-child(1) {
+    color: red;
+}
+.shopping {
+    width: 150px;
+    height: 50px;
+    background: red;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    display: none;
+    
+}
+.mi-pagenav {
+    width: 100%;
+    height: 60px;
+    /* background: rgb(51, 255, 0); */
+}
+.number-fist {
+    width: 1240px;
+    height: 60px;
+    margin: auto;
+    background: #ccc;
+    /* margin-top: 15px; */
+}
+.fist-num {
+    width: 200px;
+    height: 45px;
+    margin: auto;
+}

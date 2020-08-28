@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+.header{
+    width: 100%;
+    height: 260px;
+    /* display: flex; */
+}
+.imgs {
+    display: block;
+    width: 100%;
+    height: 120px;
+    /* overflow: hidden; */
+    margin: auto;
+}
+
+.box2 {
+    width: 100%;
+    height:40px;
+    background: lightslategray;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}
+
+.fuwu {
+    width: 1226px;
+    height: 40px;
+    /* background: green; */
+    position: relative;
+    
+}
+
+.text {
+    line-height: 40px;
+}
+
+.text li {
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.btn1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 40px;
+    /* background:violet; */
+    
+}
+
+.text1 {
+    line-height: 40px;
+}
+
+.text1 li {
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.shopping {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 40px;
+    background: #ccc;
+    opacity: .8;
+}
+.saojun{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    /* background: teal; */
+    justify-content: space-evenly;
+    align-content: center;
+  
+}
+.pohone {
+    width: 1226px;
+    height: 100px;
+    /* background: hotpink; */
+    position: relative;
+    text-align: center;
+}
+
+ .mi{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    display:inline-block;
+}
+.list {
+    
+    margin-left: 200px;
+    
+}
+.list li {
+    float: left;
+    line-height: 100px;
+    margin-left:20px;
+    overflow: hidden;
+}
+.ipt {
+    width: 200px;
+    height: 40px;
+    float: right;
+    line-height: 100px;
+    position: absolute;
+    top: 25px;
+}
+.lunbo {
+    width: 100%;
+    height: 460px;
+    /* background: springgreen; */
+}
+
+.carousel {
+    width: 1226px;
+    height: 460px;
+    background: skyblue;
+    text-align: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-content: center;
+   
+}
+
+.carousel slide carousel-fade {
+    position: relative;
+}
+.carousel-control-prev {
+    position: relative;
+    position: absolute;
+}
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 234px;
+}
+
+.carousel-control-next {
+    position: relative;
+    position: absolute;
+}
+.carousel-control-next-icon {
+    position: absolute;
+    right: 0;
+}
+/* .rouse {
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.rouse li{
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    background: #000;
+    border-radius: 50%;
+    float: left;
+} */
+
+
+.liebiao {
+    width: 234px;
+    height: 460px;
+    background: #aaa;
+     display: flex;
+     opacity: .7;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cellphone li {
+    width: 234px;
+    height: 42px;
+    
+    
+    line-height: 42px;
+    color:#fff
+}
+.cellphone li .arrows {
+    float: right;
+}
+.images {
+    /* z-index: 0; */
+    width: 1226px;
+    height: 460px;
+    /* overflow: hidden; */
+}
+
+.fiveG {
+    height: 170px;  
+    width: 100%;
+    margin-top: 15px;
+    /* background: cyan; */
+}
+.imgfour {
+    width: 1226px;
+    height: 170px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.imgfour .sole {
+    height: 170px;
+}
+.imgfour .imgs{
+    width: 316px;
+    height: 170px;
+}
+
+.details {
+    width: 100%; 
+    margin-top: 10px;
+    height: 6035px;
+    background: #eee;
+   
+}
+.title {
+    width: 1226px;
+    height: 58px;
+    /* background: red; */
+    margin: auto;
+    line-height: 58px;
+    font-size:24px;
+    position: relative;
+    
+}
+.title  .sp1{
+    position: absolute;
+    right:200px;
+    width: 58px;
+    height: 58px;
+    background: yellow;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    cursor:pointer;
+}
+.title  .sp2{
+    position: absolute;
+    right:0;
+    width: 58px;
+    height: 58px;
+    background: yellow;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    cursor:pointer;
+}
+.lunbotwo {
+    width: 1226px;
+    height: 340px;
+    /* background: yellow; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.flash-active {
+    width: 234px;
+    height: 339px;
+    background: #bbb;
+    margin-top:1px;
+    z-index: 1;
+}
+.round {
+    padding-top: 30px;
+    padding-left: 80px;
+
+}
+.flash-active  .imgsb {
+    margin-top: 20px;
+    margin-left: 90px;
+    display: inline-block;
+}
+
+.desc {
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 75px;
+}
+
+.countdown {
+    margin: 28px auto 0; 
+    width: 168px;
+}
+.countdown span {
+    width: 46px;
+    height: 46px;
+    background: #605751;
+    color: #fff;
+    font-size: 24px;
+    line-height: 46px;
+    float: left;
+    text-align: center;
+}
+.countdown i {
+    width: 15px;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    color: #605751;
+    font-size: 28px;
+    font-style: normal;
+    text-align: center;
+    
+}
+.fla {
+    width: 2000px;
+    height: 340px;
+    /* background: coral; */
+    position: absolute;
+    left: 234px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flash{
+    width: 234px;
+    height: 339px;
+    /* background: violet; */
+    margin-top:1px;
+    float: left;
+    /* overflow: hidden; */
+    
+}
+.flash img {
+    width: 234px;
+    height: 339px;
+}
+#carouselExampleSlidesOnly {
+    background: none;
+    height: 340px;
+}
+.imgmax {
+    width: 1226px;
+    height: 120px;
+    margin: auto;
+    margin-top: 15px;
+}
+.title1 {
+    width: 1226px;
+    height: 58px;
+    background: #ddd;
+    margin: auto;
+    line-height: 58px;
+    margin-top: 15px;
+    font-size:24px;
+}
+.max1 {
+    width: 1226px;
+    height: 614px;
+    
+    margin: auto;
+    position: relative;
+}
+.maxiphone {
+    width: 234px;
+    height: 614px;
+    background: burlywood;
+}
+.span8 {
+    width: 992px;
+    height: 614px;
+    /* background: rgb(135, 222, 147); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+.break-item {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    /* background: green */
+}
+.imgmax2 {
+    width: 1226px;
+    height: 120px;
+    margin: auto;
+    margin-top: 15px;
+}
+.title2 {
+    width: 1226px;
+    height: 58px;
+    background: #ddd;
+    margin: auto;
+    line-height: 58px;
+    margin-top: 15px;
+    font-size:24px;
+}
+
+.film {
+    float: right;
+    height: 42px;
+    width: 136px;
+    font-size:18px;
+    display: flex;
+    justify-content: space-between;
+}
+.redmi {
+    width: 248px;
+    height: 614px;
+    /* background: grey; */
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.max2 {
+    width: 1226px;
+    height: 614px;
+    /* background: hotpink; */
+    margin: auto;
+    position: relative;
+}
+.span9 {
+    width: 992px;
+    height: 614px;
+    /* background: rgb(135, 222, 147); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    
+}
+
+.break-m {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.break-k {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    /* background: red */
+}
+.break-k .air {
+    width: 234px;
+    height: 143px;
+    margin-bottom: 14px;
+    display: inline-block;
+
+}
+
+.break-n {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background:blue;
+}
+.break-b {
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    /* background: greenyellow */
+}
+.break-b .air {
+    width: 234px;
+    height: 143px;
+    margin-bottom: 14px;
+    background: red;
+    display: inline-block;
+}
+
